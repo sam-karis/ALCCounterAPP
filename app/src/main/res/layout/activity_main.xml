@@ -119,6 +119,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
+                    android:background="@drawable/button_custom"
                     android:onClick="goalForTeamA"
                     android:text="Goal" />
 
@@ -144,6 +145,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="5"
+                    android:background="@drawable/button_custom"
                     android:onClick="playersForTeamA"
                     android:text="Players" />
 
@@ -168,6 +170,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="5"
+                    android:background="@drawable/button_custom"
                     android:onClick="penaltyForTeamA"
                     android:text="Penalty" />
 
@@ -192,6 +195,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="5"
+                    android:background="@drawable/button_custom"
                     android:onClick="redCardedPlayersForTeamA"
                     android:text="RedCard" />
 
@@ -235,6 +239,7 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
+                            android:background="@drawable/button_custom"
                             android:onClick="StartTwoMinutesOutForTeamA"
                             android:text="Out" />
 
@@ -242,6 +247,7 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
+                            android:background="@drawable/button_custom"
                             android:onClick="EndTwoMinutesOutForTeamA"
                             android:text="In" />
 
@@ -271,6 +277,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
+                    android:background="@drawable/button_custom"
                     android:onClick="goalForTeamB"
                     android:text="Goal" />
 
@@ -293,6 +300,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="5"
+                    android:background="@drawable/button_custom"
                     android:onClick="playersForTeamB"
                     android:text="Players" />
 
@@ -317,6 +325,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="5"
+                    android:background="@drawable/button_custom"
                     android:onClick="penaltyForTeamB"
                     android:text="Penalty" />
 
@@ -341,6 +350,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="5"
+                    android:background="@drawable/button_custom"
                     android:onClick="redCardedPlayersForTeamB"
                     android:text="RedCard" />
 
@@ -385,6 +395,7 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
+                            android:background="@drawable/button_custom"
                             android:onClick="StartTwoMinutesOutForTeamB"
                             android:text="Out" />
 
@@ -392,6 +403,7 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
+                            android:background="@drawable/button_custom"
                             android:onClick="EndTwoMinutesOutForTeamB"
                             android:text="In" />
 
