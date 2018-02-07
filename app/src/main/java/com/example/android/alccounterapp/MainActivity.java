@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
      * Add Goal scored
      */
     public void goalForTeamA(View V) {
-        scoreTeamA = scoreTeamA + 1;
+        scoreTeamA += 1;
         displayScoreForTeamA(scoreTeamA);
     }
 
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
      * Increase No of penalties and display penalities taken by Team A
      */
     public void penaltyForTeamA(View V) {
-        penaltyTeamA = penaltyTeamA + 1;
+        penaltyTeamA += 1;
         displayPenaltyForTeamA(penaltyTeamA);
     }
 
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
     public void redCardedPlayersForTeamA(View V) {
         if (playersTeamA > 0) {
             redCardedPlayersTeamA = redCardedPlayersTeamA + 1;
-            playersTeamA = playersTeamA - 1;
+            playersTeamA -= 1;
             displayRedCardForTeamA(redCardedPlayersTeamA);
             displayPlayersForTeamA(playersTeamA);
         }
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     public void StartTwoMinutesOutForTeamA(View V) {
         if (playersTwoMinOutTeamA < 7 & playersTeamA > 0) {
             playersTwoMinOutTeamA = playersTwoMinOutTeamA + 1;
-            playersTeamA = playersTeamA - 1;
+            playersTeamA -= 1;
             displayTwoMinutesForTeamA(playersTwoMinOutTeamA);
             displayPlayersForTeamA(playersTeamA);
         }
@@ -87,8 +87,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void EndTwoMinutesOutForTeamA(View V) {
         if (playersTwoMinOutTeamA > 0 & playersTeamA < 7) {
-            playersTwoMinOutTeamA = playersTwoMinOutTeamA - 1;
-            playersTeamA = playersTeamA + 1;
+            playersTwoMinOutTeamA -= 1;
+            playersTeamA += 1;
             displayTwoMinutesForTeamA(playersTwoMinOutTeamA);
             displayPlayersForTeamA(playersTeamA);
         }
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
      * Add Goal scored
      */
     public void goalForTeamB(View V) {
-        scoreTeamB = scoreTeamB + 1;
+        scoreTeamB += 1;
         displayScoreForTeamB(scoreTeamB);
     }
 
@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
      * Increase No of penalties and display penalities taken by Team B
      */
     public void penaltyForTeamB(View V) {
-        penaltyTeamB = penaltyTeamB + 1;
+        penaltyTeamB += 1;
         displayPenaltyForTeamB(penaltyTeamB);
     }
 
@@ -166,8 +166,8 @@ public class MainActivity extends AppCompatActivity {
      */
     public void redCardedPlayersForTeamB(View V) {
         if (playersTeamB > 0) {
-            redCardedPlayersTeamB = redCardedPlayersTeamB + 1;
-            playersTeamB = playersTeamB - 1;
+            redCardedPlayersTeamB += 1;
+            playersTeamB -= 1;
             displayRedCardForTeamB(redCardedPlayersTeamB);
             displayPlayersForTeamB(playersTeamB);
         }
@@ -179,8 +179,8 @@ public class MainActivity extends AppCompatActivity {
     //Go out due to a foul
     public void StartTwoMinutesOutForTeamB(View V) {
         if (playersTwoMinOutTeamB < 7 & playersTeamB > 0) {
-            playersTwoMinOutTeamB = playersTwoMinOutTeamB + 1;
-            playersTeamB = playersTeamB - 1;
+            playersTwoMinOutTeamB += 1;
+            playersTeamB -= 1;
             displayTwoMinutesForTeamB(playersTwoMinOutTeamB);
             displayPlayersForTeamB(playersTeamB);
         }
@@ -243,25 +243,26 @@ public class MainActivity extends AppCompatActivity {
      */
     public void resetValue(View V) {
         scoreTeamA = 0;
-        scoreTeamB = 0;
-        penaltyTeamA = 0;
-        penaltyTeamB = 0;
-        playersTeamA = 7;
-        playersTeamB = 7;
-        redCardedPlayersTeamA = 0;
-        redCardedPlayersTeamB = 0;
-        playersTwoMinOutTeamA = 0;
-        playersTwoMinOutTeamB = 0;
         displayScoreForTeamA(scoreTeamA);
+        scoreTeamB = 0;
         displayScoreForTeamB(scoreTeamB);
+        penaltyTeamA = 0;
         displayPenaltyForTeamA(penaltyTeamA);
+        penaltyTeamB = 0;
         displayPenaltyForTeamB(penaltyTeamB);
+        playersTeamA = 7;
         displayPlayersForTeamA(playersTeamA);
+        playersTeamB = 7;
         displayPlayersForTeamB(playersTeamB);
+        redCardedPlayersTeamA = 0;
         displayRedCardForTeamA(redCardedPlayersTeamA);
+        redCardedPlayersTeamB = 0;
         displayRedCardForTeamB(redCardedPlayersTeamB);
+        playersTwoMinOutTeamA = 0;
         displayTwoMinutesForTeamA(playersTwoMinOutTeamA);
+        playersTwoMinOutTeamB = 0;
         displayTwoMinutesForTeamB(playersTwoMinOutTeamB);
+
     }
 
 }
