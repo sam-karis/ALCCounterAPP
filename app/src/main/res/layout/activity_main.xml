@@ -111,7 +111,13 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
                     android:layout_marginBottom="4dp">
+=======
+                    android:layout_weight="5"
+                    android:onClick="goalForTeamA"
+                    android:text="Goal" />
+>>>>>>> parent of 1b70ffd... Button
 
                     <ImageView
                         android:layout_width="0dp"
@@ -130,10 +136,19 @@
                 </LinearLayout>
 
 
+<<<<<<< HEAD
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp">
+=======
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:onClick="playersForTeamA"
+                    android:text="Players" />
+>>>>>>> parent of 1b70ffd... Button
 
                     <TextView
                         android:id="@+id/team_a_players"
@@ -154,10 +169,19 @@
 
                 </LinearLayout>
 
+<<<<<<< HEAD
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp">
+=======
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:onClick="penaltyForTeamA"
+                    android:text="Penalty" />
+>>>>>>> parent of 1b70ffd... Button
 
                     <TextView
                         android:id="@+id/team_a_penalty"
@@ -178,10 +202,19 @@
 
                 </LinearLayout>
 
+<<<<<<< HEAD
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp">
+=======
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:onClick="redCardedPlayersForTeamA"
+                    android:text="RedCard" />
+>>>>>>> parent of 1b70ffd... Button
 
                     <TextView
                         android:id="@+id/team_a_redCard"
@@ -226,11 +259,26 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+<<<<<<< HEAD
                             android:gravity="center"
                             android:text="2 Minutes Out"
                             android:textColor="#ff000d"
                             android:textSize="16sp"
                             android:textStyle="bold" />
+=======
+                            android:layout_weight="1"
+                            android:onClick="StartTwoMinutesOutForTeamA"
+                            android:text="Out" />
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:onClick="EndTwoMinutesOutForTeamA"
+                            android:text="In" />
+
+                    </LinearLayout>
+>>>>>>> parent of 1b70ffd... Button
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -256,7 +304,23 @@
                     </LinearLayout>
 
 
+<<<<<<< HEAD
                 </LinearLayout>
+=======
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:onClick="goalForTeamB"
+                    android:text="Goal" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/images2" />
+>>>>>>> parent of 1b70ffd... Button
 
             </LinearLayout>
 
@@ -267,10 +331,19 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
+<<<<<<< HEAD
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp">
+=======
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:onClick="playersForTeamB"
+                    android:text="Players" />
+>>>>>>> parent of 1b70ffd... Button
 
                     <Button
                         android:layout_width="0dp"
@@ -288,6 +361,15 @@
 
                 </LinearLayout>
 
+<<<<<<< HEAD
+=======
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:onClick="penaltyForTeamB"
+                    android:text="Penalty" />
+>>>>>>> parent of 1b70ffd... Button
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -311,7 +393,16 @@
                         android:text="0"
                         android:textSize="24sp" />
 
+<<<<<<< HEAD
                 </LinearLayout>
+=======
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:onClick="redCardedPlayersForTeamB"
+                    android:text="RedCard" />
+>>>>>>> parent of 1b70ffd... Button
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -376,6 +467,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+<<<<<<< HEAD
                             android:gravity="center"
                             android:text="2 Minutes Out"
                             android:textColor="#FF0000"
@@ -385,6 +477,18 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
+=======
+                            android:layout_weight="1"
+                            android:onClick="StartTwoMinutesOutForTeamB"
+                            android:text="Out" />
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:onClick="EndTwoMinutesOutForTeamB"
+                            android:text="In" />
+>>>>>>> parent of 1b70ffd... Button
 
                             <Button
                                 android:layout_width="0dp"
