@@ -111,14 +111,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-<<<<<<< HEAD
-                    android:layout_weight="5"
-                    android:background="@drawable/button_custom"
-                    android:onClick="goalForTeamA"
-                    android:text="Goal" />
-=======
                     android:layout_marginBottom="4dp">
->>>>>>> master
 
                     <ImageView
                         android:layout_width="0dp"
@@ -137,20 +130,10 @@
                 </LinearLayout>
 
 
-<<<<<<< HEAD
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="5"
-                    android:background="@drawable/button_custom"
-                    android:onClick="playersForTeamA"
-                    android:text="Players" />
-=======
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp">
->>>>>>> master
 
                     <TextView
                         android:id="@+id/team_a_players"
@@ -171,20 +154,10 @@
 
                 </LinearLayout>
 
-<<<<<<< HEAD
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="5"
-                    android:background="@drawable/button_custom"
-                    android:onClick="penaltyForTeamA"
-                    android:text="Penalty" />
-=======
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp">
->>>>>>> master
 
                     <TextView
                         android:id="@+id/team_a_penalty"
@@ -205,20 +178,10 @@
 
                 </LinearLayout>
 
-<<<<<<< HEAD
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="5"
-                    android:background="@drawable/button_custom"
-                    android:onClick="redCardedPlayersForTeamA"
-                    android:text="RedCard" />
-=======
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp">
->>>>>>> master
 
                     <TextView
                         android:id="@+id/team_a_redCard"
@@ -263,28 +226,11 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-<<<<<<< HEAD
-                            android:layout_weight="1"
-                            android:background="@drawable/button_custom"
-                            android:onClick="StartTwoMinutesOutForTeamA"
-                            android:text="Out" />
-
-                        <Button
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:background="@drawable/button_custom"
-                            android:onClick="EndTwoMinutesOutForTeamA"
-                            android:text="In" />
-
-                    </LinearLayout>
-=======
                             android:gravity="center"
                             android:text="2 Minutes Out"
                             android:textColor="#ff000d"
                             android:textSize="16sp"
                             android:textStyle="bold" />
->>>>>>> master
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -309,16 +255,6 @@
 
                     </LinearLayout>
 
-<<<<<<< HEAD
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="5"
-                    android:background="@drawable/button_custom"
-                    android:onClick="goalForTeamB"
-                    android:text="Goal" />
-=======
->>>>>>> master
 
                 </LinearLayout>
 
@@ -331,20 +267,10 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-<<<<<<< HEAD
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="5"
-                    android:background="@drawable/button_custom"
-                    android:onClick="playersForTeamB"
-                    android:text="Players" />
-=======
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp">
->>>>>>> master
 
                     <Button
                         android:layout_width="0dp"
@@ -362,16 +288,6 @@
 
                 </LinearLayout>
 
-<<<<<<< HEAD
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="5"
-                    android:background="@drawable/button_custom"
-                    android:onClick="penaltyForTeamB"
-                    android:text="Penalty" />
-=======
->>>>>>> master
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -395,17 +311,7 @@
                         android:text="0"
                         android:textSize="24sp" />
 
-<<<<<<< HEAD
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="5"
-                    android:background="@drawable/button_custom"
-                    android:onClick="redCardedPlayersForTeamB"
-                    android:text="RedCard" />
-=======
                 </LinearLayout>
->>>>>>> master
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -470,20 +376,6 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-<<<<<<< HEAD
-                            android:layout_weight="1"
-                            android:background="@drawable/button_custom"
-                            android:onClick="StartTwoMinutesOutForTeamB"
-                            android:text="Out" />
-
-                        <Button
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:background="@drawable/button_custom"
-                            android:onClick="EndTwoMinutesOutForTeamB"
-                            android:text="In" />
-=======
                             android:gravity="center"
                             android:text="2 Minutes Out"
                             android:textColor="#FF0000"
@@ -493,7 +385,6 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
->>>>>>> master
 
                             <Button
                                 android:layout_width="0dp"
