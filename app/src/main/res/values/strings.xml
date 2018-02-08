@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">ALC HandBall Counter App</string>
+    <string name="team_a_text">Team A</string>
+    <string name="team_b_text">Team B</string>
+    <string name="init_text">0</string>
+    <string name="players_text">7</string>
+    <string name="goal_button">Goal</string>
+    <string name="player_button">Players</string>
+    <string name="penalty_button">Penalty</string>
+    <string name="redCard_button">RedCard</string>
+    <string name="two_min_button">2 Min Out</string>
+    <string name="out_button">Out</string>
+    <string name="in_button">In</string>
+    <string name="reset_button">Reset</string>
 </resources>
